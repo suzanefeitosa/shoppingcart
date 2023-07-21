@@ -54,12 +54,10 @@
     }
 
     .bodyCard {
-        height: 12rem ;
+        height: 14rem ;
     
     }
-
     .cardTitle {
         width: 8rem;
     }
-
 }
