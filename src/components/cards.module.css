@@ -50,7 +50,7 @@
    
 
     .card{
-       max-width: 12rem;
+       max-width: 11rem;
     }
 
     .bodyCard {
@@ -58,6 +58,6 @@
     
     }
     .cardTitle {
-        width: 9rem;
+        width: 10rem;
     }
 }
