@@ -10,6 +10,7 @@
 
 - REACT
 - JavaScript
+- CSS
 - REACT BOOTSTRAP
 - Git
 - Github
