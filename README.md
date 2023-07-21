@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img alt="Prévia do projeto, produtos" src="./assets/previa.png" width="100%">
+  <img alt="Prévia do projeto, produtos" src="./src/assets/previa.png" width="100%">
 </p>
 
 ## 🚀 Desenvolvido com:
