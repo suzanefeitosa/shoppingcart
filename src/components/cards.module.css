@@ -1,0 +1,65 @@
+
+.wrapper {
+    max-width: 19rem;
+    margin-top: 1rem;
+}
+.cardTitle {
+    font-family: 'Formula', 'sans-serif';
+    font-size: 1.125rem;
+    color: var(--purple-700) !important;
+}
+
+.valorRiscado {
+    font-family: 'Tommy', 'sans-serif';
+    color: var(--purple-100);
+    font-size: 0.75rem;
+}
+
+.valorNormal {
+    font-family: 'Inlanders', 'sans-serif';
+    color: var(--purple-900);
+    font-size: 1.25rem;
+    padding: 4px;
+}
+
+.button {
+    color: var(--purple-700) !important;
+    transition: 0.2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Tommy", 'sans-serif';
+}
+
+.button:hover {
+    color: var(--purple-100);
+}
+
+.imgProduct{
+    transition: transform 0.3s ease;
+}
+
+.imgProduct:hover {
+    transform: scale(1.2) translateY(-8px);
+}
+
+@media (max-width: 640px) {
+   
+
+    .card{
+       max-width: 10rem;
+    }
+
+    .bodyCard {
+        height: 12rem ;
+    
+    }
+
+    .cardTitle {
+        width: 8rem;
+    }
+
+}

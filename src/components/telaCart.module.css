@@ -1,0 +1,123 @@
+
+.buttonCart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px;
+    background-color: transparent;
+    font-family: 'Inlanders', 'sans-serif';
+    font-size: 1.5rem;
+    color: var(--purple-700);
+    border: 0;
+
+}
+
+.line {
+    margin: 0 0 0 1rem;
+    color: var(--purple-900);
+    width: 80%;
+}
+
+
+.titleCart {
+    font-family: 'Tommy', 'sans-serif';
+    font-weight: bold;
+    color: var(--purple-700); 
+    margin: 1.5rem 0 0 1rem;
+    font-size: 1.2rem;
+}
+
+.textCart {
+    font-family: 'Tommy', 'sans-serif';
+    color: var(--purple-700); 
+    font-size: 0.75rem;
+    margin: 0 0 1rem 1.1rem;
+}
+
+.produtosLista {
+    padding-bottom: 4rem;
+}
+
+.footer {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: var(--purple-900);
+
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+   
+}
+
+.subtotal, .checkout {
+    font-family: 'Tommy', 'sans-serif';
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0;
+   
+}
+
+.checkout {
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid var(--purple-100);
+    border-radius: 10px;
+    width: 12%;
+    transition: 0.3s;
+}
+
+.checkout:hover {
+    background-color: var(--purple-100);
+    color: var(--purple-900);
+}
+
+
+
+.empty {
+   
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tommy', 'sans-serif';
+    font-weight: bold;
+    color: var(--purple-700); 
+   
+    
+}
+
+.link {
+    text-decoration: none;
+    color: var(--purple-700);
+}
+
+.alert {
+    margin-top: 2rem;
+    z-index: 1;
+    position: fixed;
+    color: var(--purple-700) !important;
+    font-weight: bold;
+    font-family: "Tommy", 'sans-serif';
+}
+
+.contadorTela {
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+
+    .subtotal, .checkout {
+        font-size: 0.75rem;
+       
+    }
+
+    .checkout {
+        width: 5rem;
+    }
+
+}

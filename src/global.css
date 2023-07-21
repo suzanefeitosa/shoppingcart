@@ -1,0 +1,47 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: 'Inlanders';
+    src: url('Inlanders Demo') format ('opentype');
+}
+
+@font-face {
+    font-family: 'Tommy';
+    src: url('MADE TOMMY Bold_PERSONAL USE') format ('opentype');
+}
+
+@font-face {
+    font-family: 'Formula';
+    src: url('FontsFree-Net-FormulaCondensed-Bold') format ('truetype');
+}
+
+:root {
+
+    --yellow:#ffcc01; 
+    --white:#ffffff; 
+    --purple-900:#500a56; 
+    --purple-700:#7f1390; 
+    --purple-100:#c388c7; 
+
+}
+
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: var(--yellow);  */
+    -webkit-font-smoothing: antialiased; 
+    margin-bottom: 2rem;
+}
+
+
+/* @media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    } */

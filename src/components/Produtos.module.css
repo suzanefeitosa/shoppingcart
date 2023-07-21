@@ -1,0 +1,32 @@
+.wrapperMap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.titleProducts {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Inlanders', 'sans-serif';
+    color: var(--purple-700);
+    display: flex;
+    justify-content: center;
+
+}
+
+.alert {
+    margin-top: 2rem;
+    z-index: 1;
+    position: fixed;
+    color: var(--purple-700) !important;
+    font-weight: bold;
+    font-family: "Tommy", 'sans-serif';
+}
+
+@media (max-width: 640px) {
+   
+    .wrapperMap {
+        grid-template-columns: 1fr 1fr;
+    }
+}

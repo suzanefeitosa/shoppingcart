@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--purple-900);
+   width: auto;
+
+    
+}
+.cartIcon {
+    margin: 1rem 1rem 0 0;
+    color: var(--yellow);
+    background-color: transparent;
+    border: 0;
+       
+}
+
+.contador {
+    background-color: var(--yellow)!important;
+    font-family: 'Tommy', 'sans-serif';
+    color: var(--purple-900);
+    border-radius: 20px;
+   
+}
+
+.header {
+    background-color: var(--purple-900);
+    
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.logo {
+   
+    margin-top: -2.5rem;
+    width: 8.75rem;
+    height: 8.75rem;
+    
+}
+
+.link {
+   color: var(--yellow);
+}
