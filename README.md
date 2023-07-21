@@ -18,7 +18,7 @@
 
 ## 💻 Projeto:
 
-- [Live](https://suzanefeitosa.github.io/shoppingcart)
+- [Live](https://shoppingcart-gatwurno.netlify.app)
 
 <br>
 
